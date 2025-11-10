@@ -1,0 +1,87 @@
+/* Group of Schools */
+
+.groupofschools-container {
+  background-image: url("@/assets/about/background/Ellipse4.svg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+/* School Branches */
+.schoolbranches-container {
+  background-image: url("@/assets/schools/background/Frame2.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 24px;
+}
+.schoolbranches-card {
+  background-image: url("@/assets/schools/background/branches_card.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 657px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  -webkit-mask-image: radial-gradient(white, black);
+  mask-image: radial-gradient(white, black);
+
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.schoolbranches-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  background-color: transparent; 
+}
+
+.schoolbranches-small-card {
+  display: flex;
+  padding: 0 8px;
+  align-items: center;
+  gap: 13px;
+  flex-shrink: 0;
+}
+
+/* Button subtle glow */
+.schoolbranches-card button {
+  position: relative;
+  overflow: hidden;
+}
+
+.schoolbranches-card button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0)
+  );
+  transform: skewX(-25deg);
+  transition: left 0.1s ease;
+}
+
+.schoolbranches-card button:hover::after {
+  left: 125%;
+}
+
+
+/* Strong Foundation */
+
+
+.strongfoundation-section {
+  background-image: url("@/assets/home/background/insights_banner.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.strongfoundation-card {
+  box-shadow: 0 17.68px 30.94px 0 rgba(10, 10, 10, 0.10);
+}

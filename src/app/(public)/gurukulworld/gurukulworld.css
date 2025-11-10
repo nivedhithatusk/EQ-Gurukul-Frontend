@@ -1,0 +1,55 @@
+/* School Information */
+
+.schoolinfocontent-container {
+  background-image: url("@/assets/about/background/Ellipse4.svg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+/* Awards Categories */
+
+.awardcategories_section {
+  background-image: url("@/assets/gurukul_world/waves_bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Academics & Assessments */
+
+.pattern_section {
+  background-image: url("@/assets/gurukul_world/gurukulpattern_bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.programmeoverview_section {
+  background-image: url("@/assets/about/background/Ellipse4.svg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+/* Rewards & Recognitions */
+
+/* Right to Left */
+@keyframes marquee-rtl {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-ltr {
+  display: flex;
+  animation: marquee-ltr 35s linear infinite;
+}
+
+.animate-marquee-rtl {
+  display: flex;
+  animation: marquee-rtl 35s linear infinite;
+}

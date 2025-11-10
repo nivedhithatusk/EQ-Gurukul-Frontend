@@ -1,0 +1,185 @@
+/* About Equitas Gurukul */
+
+.aboutgurukul-container {
+  background-image: url("@/assets/about/background/Ellipse4.svg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+/* Our Principle */
+.ourprinciple-container {
+  background-image: url("@/assets/branch/our_principal.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.principal_card {
+  position: absolute;
+  /* top: 282px; */
+  align-content: center;
+  text-align: center;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.8);
+  /* width: 474px;
+  height: 76px; */
+  /* left: 10px; */
+}
+
+.principal_card span {
+  /* font-size: 28px; */
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* AcademicsAndCurriculum */
+
+.AcademicsAndCurriculum_container {
+  background-image: url("@/assets/branch/academicsandcurriculum_bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 20s linear infinite;
+}
+
+/* Our Academic */
+
+.OurAcademic_container {
+  background-image: url("@/assets/branch/ouracademic_bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ouracademic_card13 {
+  background: linear-gradient(
+    318deg,
+    rgba(220, 252, 240) 0%,
+    rgba(255, 255, 255, 1) 64%
+  );
+  backdrop-filter: blur(87px);
+  box-shadow: 4.297px 4.297px 12.891px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  width: 150px;
+}
+
+.ouracademic_card13 .ouracademic_card24 .flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Adjust spacing between text and SVG */
+}
+
+.ouracademic_card24 {
+  background: linear-gradient(
+    135deg,
+    rgba(220, 252, 240) 0%,
+    rgba(255, 255, 255, 1) 64%
+  );
+  backdrop-filter: blur(87px);
+  box-shadow: 4.297px 4.297px 12.891px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  width: 150px;
+}
+
+/* Holistic Approach */
+/* Continuous smooth vertical marquee */
+@keyframes marquee-vertical {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-marquee-vertical {
+  display: flex;
+  flex-direction: column;
+  animation: marquee-vertical 20s linear infinite;
+}
+
+.group:hover .animate-marquee-vertical {
+  animation-play-state: paused;
+}
+
+/* Branch Gallery */
+
+/* Left to Right */
+@keyframes marquee-ltr {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* Right to Left */
+@keyframes marquee-rtl {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-ltr {
+  display: flex;
+  animation: marquee-ltr 35s linear infinite;
+}
+
+.animate-marquee-rtl {
+  display: flex;
+  animation: marquee-rtl 35s linear infinite;
+}
+
+.reachus-container {
+  background-image: url("@/assets/branch/reachus_bg1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 700px;
+}
+
+@media (max-width: 1024px) {
+  .reachus-container {
+    background-size: cover;
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reachus-container {
+    background-position: top;
+    background-size: contain;
+    min-height: 800px;
+  }
+}
+
+@media (max-width: 480px) {
+  .reachus-container {
+    background-size: cover;
+    min-height: 900px;
+  }
+}

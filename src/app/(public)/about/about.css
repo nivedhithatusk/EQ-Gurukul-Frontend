@@ -1,0 +1,78 @@
+/* goalandmission */
+
+.goalandmission-section {
+  background-image: url("@/assets/about/background/star.svg");
+  background-size: 421px 500.41px;
+  /* background-position: right; */
+  background-repeat: no-repeat;
+  background-position: right 171px;
+}
+
+.goalandmission-container {
+  background-image: url("@/assets/about/background/Ellipse4.svg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.goal-card {
+  background-image: url("@/assets/about/background/goal.svg");
+  /* background-size: contain; */
+  background-size: 247px 247px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.mission-card {
+  background-image: url("@/assets/about/background/mission.svg");
+  /* background-size: contain; */
+  background-size: 247px 247px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+@keyframes rollNumber {
+  0% {
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(-20%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.count-number {
+  /* font-size: 66.602px; */
+  font-weight: 700;
+  color: #5885dd;
+  /* display: inline-block; */
+  animation: rollNumber 1.5s ease-out;
+}
+
+.count-number-text {
+  /* font-size: 25.781px; */
+  font-weight: 400;
+  color: #525252;
+}
+
+
+/* Holistic Education */
+.holistic-approach-container {
+  background-image: url("@/assets/about/background/holisticeducation_bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* Infrastructure */
+.facilityinfrastructure-section {
+  background-image: url("@/assets/gurukul_world/waves_bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@import "ag-grid-community/styles/ag-grid.css";
+@import "ag-grid-community/styles/ag-theme-quartz.css";
+
+:root {
+  /* Define the font family using the CSS variable */
+  --font-family-poppins: var(--font-poppins);
+}
+
+/* Glow effect for the card */
+.glow-border {
+  transition: border 0.3s ease-in-out;
+}
+
+.glow-border:focus-within {
+  border: 2px solid #7c7ca6; /* Border color */
+  box-shadow: 0 0 10px #7c7ca6; /* Glowing effect */
+}
+
+/* Glow effect for inputs when focused */
+.glow-border-input:focus {
+  outline: none;
+  border: 2px solid #7c7ca6; /* Border color */
+  box-shadow: 0 0 10px #7c7ca6; /* Glowing effect */
+}
+
+.ellipse-background {
+  background-image: url("@/assets/about/background/Ellipse4.svg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+
+.reachus-call {
+  background-image: url("@/assets/about/icons/call.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-size: 113px 113px;
+  border-radius: 8px;
+  border: 1px solid #898989;
+}
+
+.reachus-email {
+  background-image: url("@/assets/about/icons/email.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-size: 113px 113px;
+  border-radius: 8px;
+  border: 1px solid #898989;
+}
+
+.reachus-address {
+  background-image: url("@/assets/about/icons/address.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-size: 113px 113px;
+  border-radius: 8px;
+  border: 1px solid #898989;
+}

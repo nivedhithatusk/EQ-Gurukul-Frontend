@@ -1,0 +1,161 @@
+/* GurukulHolisticApproach */
+
+.holistic-approach {
+  background-image: url("@/assets/home/background/home_section31.svg");
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* WhatSetsUsApart */
+
+.wa-card h4 {
+  font-size: clamp(18px, 1.6vw, 24px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.wa-card p {
+  font-size: clamp(14px, 1.4vw, 18px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+/* ContactSection */
+
+.contact-form input {
+  color: #d7d7d7;
+  border: 1px solid #d7d7d7;
+}
+
+.contact-form button {
+  display: flex;
+  height: 44px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: #606060;
+  color: #fff;
+}
+
+.contact-form button:hover {
+  background-color: #333 !important;
+}
+
+.contact-form textarea {
+  color: #d7d7d7 !important;
+  border: 1px solid #d7d7d7 !important;
+}
+
+/* AcademicAchievements */
+
+.achievements-section {
+  background-image: url("@/assets/home/background/achievement_banner.svg");
+  min-height: clamp(460px, 70vh, 765px);
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* 
+.achievements-section h2 {
+  color: #00488b;
+  font-size: clamp(28px, 4vw, 52px);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.achievements-section p {
+  color: #808080;
+  font-size: clamp(16px, 2.5vw, 32px);
+  font-weight: 400;
+  line-height: 1.6;
+} */
+
+/* HomeFooter */
+
+.homefooter-banner {
+  background-image: url("@/assets/home/background/homefooter_banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  min-height: clamp(360px, 55vh, 550px);
+  display: flex;
+  color: #fff;
+  text-align: center;
+  padding: 24px;
+}
+
+.homefooter-banner p {
+  text-align: center;
+  font-size: clamp(13px, 1.4vw, 15px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  margin: 0 auto;
+}
+
+.homefooter-banner h1 {
+  text-align: center;
+  font-size: clamp(28px, 5vw, 49.609px);
+  line-height: 1.25;
+  letter-spacing: 1px;
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+/* .homefooter-banner-button {
+  display: flex;
+  height: 57.06px;
+  padding: 16.969px 33.38px 17.091px 34px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  background: #0082fa;
+} */
+
+.homefooter-banner-button {
+  padding: 21px 27.55px 0 28px;
+}
+
+.homefooter-banner-button button {
+  text-align: center;
+  font-size: clamp(12px, 1.2vw, 13px);
+  font-weight: 600;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  border-radius: 24px;
+  background: #0082fa;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 28px;
+  cursor: pointer;
+}
+
+/* Insights And News section */
+
+.insights-section {
+  background-image: url("@/assets/home/background/insights_banner.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+/* Events Section */
+
+.events-section {
+  background-image: url("@/assets/home/background/Events_banner.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}

@@ -13,7 +13,7 @@ export const NavLinks = [
     { id: 34, name: "Rewards & Recognitions", path: "/gurukulworld/rewardsandecognitions", active: true },
   ]  },
   { id: 4, name: "Schools", path: "/schools", active: true },
-  { id: 5, name: "Gallery", path: "/gallery", active: true },
+  // { id: 5, name: "Gallery", path: "/gallery", active: true },
   { id: 6, name: "Alumni Club", path: "/alumniclub", active: true },
   { id: 7, name: "Careers", path: "/careers", active: true },
   { id: 8, name: "Contact", path: "/contactus", active: true },

@@ -53,7 +53,7 @@ export default function Footer() {
                 <Link href="/contactus">Contact</Link>
               </div>
               <div className="flex flex-col gap-2">
-                <Link href="/gallery">Gallery</Link>
+                {/* <Link href="/gallery">Gallery</Link> */}
                 <Link href="/alumni">Alumni Club</Link>
                 <Link href="/careers">Careers</Link>
               </div>
@@ -62,14 +62,14 @@ export default function Footer() {
         </div>
 
         {/* Footer Bottom */}
-        <div className="pt-6 text-center text-sm text-gray-400 flex justify-between items-start">
-          <div className="flex md:justify-start items-start">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 pt-6 text-center text-sm text-gray-400 justify-between items-start gap-2">
+          <div className="flex md:justify-start items-start order-2 sm:order-1 md:order-2">
             <p>Copyright All Right Reserved 2025</p>
           </div>
 
           {/* Social Media Icons */}
-          <div className="flex md:justify-end items-start">
-            <div className="flex gap-4 mt-12 md:mt-0">
+          <div className="flex md:justify-end items-start order-1 sm:order-2 md:order-1 ">
+            <div className="flex gap-4 mt-12 md:mt-0 sm:mt-0">
               <a href="#" aria-label="Facebook">
                 <svg
                   width="24"

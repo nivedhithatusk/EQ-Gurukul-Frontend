@@ -9,6 +9,8 @@ import ContactSection from "@/components/Home/ContactSection";
 import ApproachSection from "@/components/Home/ApproachSection";
 import "./home.css";
 import HomeFooter from "@/components/Home/HomeFooter";
+import BranchData from "@/constant/BranchData";
+import OurAcademic from "@/components/Branch/OurAcademic";
 
 export default function Home() {
   return (
@@ -16,7 +18,8 @@ export default function Home() {
       <HomeBanner />
       <ApproachSection />
       <GurukulHolisticApproach />
-      <AcademicAchievements />
+      {/* <AcademicAchievements /> */}
+      <OurAcademic id="home"/>
       <KindergartenSection />
       <InsightsAndNews />
       <EventsSection />

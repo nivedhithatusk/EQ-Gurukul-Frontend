@@ -3,7 +3,7 @@ export const NavLinks = [
   { id: 2, name: "About Us", path: "", active: true, submenu: [
     { id: 21, name: "Overview", path: "/about/overview", active: true },
     { id: 22, name: "COAE (Centre of Academic Excellence)", path: "/about/coae", active: true },
-    { id: 23, name: " Education", path: "/about/holisticeducation", active: true },
+    { id: 23, name: "Holistic Education", path: "/about/holisticeducation", active: true },
     { id: 24, name: "Infrastructure", path: "/about/infrastructure", active: true },
   ] },
   { id: 3, name: "Gurukul World", path: "", active: true, submenu: [

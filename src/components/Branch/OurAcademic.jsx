@@ -11,7 +11,7 @@ const OurAcademic = ({ id }) => {
               Our Academic <br /> Achievement
             </h1>
             <p className="text-5xl text-black my-1 leading-tight">
-              {id} <span className="text-[#808080]"> (2023-2024)</span>
+              {id === "home" ? "" : id} <span className="text-[#808080]"> (2023-2024)</span>
             </p>
             <div className="flex gap-4 py-8">
               <button className="bg-blue-950 text-white px-8 py-3 rounded-2xl font-semibold cursor-pointer">
